@@ -1,135 +1,30 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link rel="icon" href="favicon.ico" type="image/x-icon" />
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Yihang Zuo</title>
+---
+layout: default
+title : Homepage
+navbar_title: Home
+---
+{% include widgets/profile_card.html %}
 
-</head>
-<body>
-<div id="layout-content">
-<div id="toptitle">
-<h1>Yihang Zuo</h1>
-</div>
-<table class="imgtable"><tr><td>
-<img src="picture/Yihang.jpg" alt="alt text" width="160px" /></a>&nbsp;</td>
-<td align="left"><p>Hi, I am Yihang Zuo, a PhD student at Arizona State University advised by <a href="https://faculty.engineering.asu.edu/dfan/">Prof. Deliang Fan</a>. 
-Previously, I received my M.S. degree from The Hong Kong University of Science and Technology (Guangzhou) co-advised by 
-<a href="https://www.yuzhe-ma.com/">Prof. Yuzhe Ma</a> and 
-<a href="https://jyhuang91.github.io/">Prof. Jiayi Huang</a>,
-and B.S. degree from South China University of Technology.<br />
-My research interest: <b>CIM-based AI accelerator</b>、<b>Design Space Exploration</b>、<br /><b>Efficient Computing</b>、<b>EDA</b><br />
-<a href="pdf/Yihang_Zuo_CV.pdf">[My CV]</a> <a href="https://scholar.google.com.hk/citations?user=36RNaCMAAAAJ&hl=zh-CN">[Google Scholar]</a> 
-<a href="https://github.com/zyh0911">[GitHub]</p>
-</td></tr></table>
-<h2>Education</h2>
-<table class="imgtable"><tr><td>
-<img src="picture/scut_logo.jpg" alt="alt text" width="60px" /></a>&nbsp;</td>
-<td align="left"><h3>B. S. <a href="https://www.scut.edu.cn/new/">South China University of Technology</a> (2019.9 ~ 2023.6)</h3>
-<ul>
-<li><p>B.Eng, Major in Microelectronics Science and Engineering</p> 
-</li>
-</ul>
-</td></tr></table>
-<table class="imgtable"><tr><td>
-<img src="picture/hkust-gz_logo.png" alt="alt text" width="60px" /></a>&nbsp;</td>
-<td align="left"><h3>M. S. <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a> (2023.9 ~ 2025.8)</h3>
-<ul>
-<li><p>Mphil, Major in Microelectronics</p> 
-</li>
-</ul>
-</ul>
-</td></tr></table>
-<table class="imgtable"><tr><td>
-<img src="picture/ASU-logo.png" alt="alt text" width="60px" /></a>&nbsp;</td>
-<td align="left"><h3>PhD. <a href="https://www.asu.edu/">Arizona State University</a> (2025.9 ~ Now)</h3>
-<ul>
-<li><p>PhD, Major in Electrical and Computer Engineering</p> 
-</li>
-</ul>
-</td></tr></table>
-<h2>Publication</h2>
-<ul>
-<li><p>Optimizing Heterogeneous Compute-in-Memory with Hybrid Dataflow and In-Network Reduction for Vision Transformer <br />
-Zexin FU,<b>Yihang Zuo</b>, Yuzhe Ma, and Jiayi Huang <br />
-<i>International Symposium on Low Power Electronics and Design <b>(ISLPED)</b>, 2025 </a></i></p>
-</li>
-</ul>
-<ul>
-<li><p>OpenC2: An Open-Source End-to-End Hardware Compiler Development Framework for Digital Compute-in-Memory Macro<br />
-Tianchu Dong, Shaoxuan Li, <b>Yihang Zuo</b>, Hongwu Jiang, Yuzhe Ma, Shanshi Huang <br />
-<i>Design, Automation & Test in Europe Conference <b>(DATE)</b>, 2025 </a></i></p>
-</li>
-</ul>
-<ul>
-<li><p>OpenDRC: An Efficient Open-Source Design Rule Checking Engine with Hierarchical GPU Acceleration</a> <br />
-Zhuolun He, <b>Yihang Zuo</b>, Jiaxi Jiang, Haisheng Zheng, Yuzhe Ma, and Bei Yu <br />
-<i>ACM/IEEE Design Automation Conference <b>(DAC)</b>, San Francisco, CA, 2023.<a href="pdf/Opendrc.pdf">[PDF] </a></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="https://opg.optica.org/ao/fulltext.cfm?uri=ao-61-20-6016&id=478140">Symmetrical indoor visible light layout optimized by a modified grey wolf algorithm</a> <br />
-<b>Yihang Zuo*</b>, Bojun Liu, and Kunming Shao <br />
-<i>Applied Optics <b>(AO)</b>, 2022. [JCR Q1]<a href="pdf/ao-61-20-6016.pdf">[PDF]</a></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="https://aisel.aisnet.org/whiceb2021/67/">Analysis on Public Opinion Sentiment Evolution of COVID-19 Based on Weibo Data</a> <br />
-JiangPing Wan, Xu Liu, <b>Yihang Zuo</b>, Jianfeng Luo<br />
-<i>WHICEB 2021 PROCEEDINGS <a href="pdf/Analysis on Public Opinion Sentiment Evolution of COVID-19  Based.pdf">[PDF]</a></i></p>
-</li>
+{% include widgets/debug_repo_name.html %}
 
-</ul>
-<h2>Honors and Awards</h2>
-<ul>
-<li><p><b>1st</b> Prize in Guangdong province, China Undergraduate MCM 2020.10<br />
+{% include widgets/debug_url.html %}
 
-<li><p><b>1st</b> Prize in South China, China college IC competition 2022.07<br />
+{% if site.data.display.homepage.show_experience %}
+    {% include widgets/experience_card.html %}
+{% endif %}
 
-<li><p><b>2nd</b> Prize in Guangdong province, China Undergraduate MCM 2021.10<br />
+{% if site.data.display.homepage.show_news %}
+    {% assign count_news = site.news | size %}
+    {% if count_news > 0 %}
+        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+    {% endif %}
+{% endif %}
 
-<li><p><b>3rd</b> Prize in South China, China college IC competition 2021.07<br />
-
-<li><p><b>3rd</b> Prize, China college IC competition 2022.08<br />
-
-<li><p> Runner-up in the SCUT debate competition 2020.11<br />
-
-<li><p>Meritorious winner, Mathematical Contest in Modeling (MCM) 2021.02<br />
-</li>
-
-</ul>
-<h2>Experiences</h2>
-<ul>
-<li><p>Intern in Shanghai Artificial Intelligence Laboratory (Shanghai AI lab) 2022.09 - 2023.03
-<li><p>Summer Session of University of Illinois Urbana-Champaign (UIUC) 2021.08
-</li>
-
-</ul>
-<h2>Service and Leadership</h2>
-<ul>
-<li><p>ASPDAC/DAC/DATE Reviewer
-<li><p>Excellent Social Practice Volunteer
-<li><p>Senior Student Mentor
-<li><p>President of the Microelectronics Association
-</li>
-</ul>
-</ul>
-<div style="text-align: center;">
-  <img src="picture/scut_logo.jpg"  alt="Image 1" style="width: 20%; height: auto;">
-  <img src="picture/hkust-gz_logo.png" alt="Image 2" style="width: 35%; height: auto;">
-  <img src="picture/shailab.jpg" alt="Image 3" style="width: 35%; height: auto;">
-</div>
-</ul>
-</ul>
-<div id="footer">
-<div id="footer-text">
-</div>
-</div>
-</div>
-<!-- TWIPLA Tracking Code for https://zyh0911.github.io/ --><script>(function(v,i,s,a,t){v[t]=v[t]||function(){(v[t].v=v[t].v||[]).push(arguments)};if(!v._visaSettings){v._visaSettings={}}v._visaSettings[a]={v:'1.0',s:a,a:'1',t:t};var b=i.getElementsByTagName('body')[0];var p=i.createElement('script');p.defer=1;p.async=1;p.src=s+'?s='+a;b.appendChild(p)})(window,document,'//app-worker.visitor-analytics.io/main.js','23ae947e-a3d6-11ef-9280-bee4895ac99e','va')</script><!-- TWIPLA Tracking Code for https://zyh0911.github.io/ -->
-</body>
-</html>
+{% if site.data.display.homepage.show_selected_publications %}
+    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+    {% 
+        include widgets/publication_card.html 
+        publications=pubs
+        title='<i class="fas fa-star"></i> Selected Publications'
+    %}
+{% endif %}

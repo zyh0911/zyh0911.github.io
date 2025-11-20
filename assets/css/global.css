@@ -1,0 +1,158 @@
+@charset "utf-8";
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    padding-top: 5.0rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700;
+}
+
+.card {
+    border-radius: 0.8rem!important;
+}
+
+.card-img-overlay {
+    border-radius: 0.8rem!important;
+}
+
+.rounded-xl {
+    border-radius: 0.8rem!important;
+}
+
+.rounded-xl-bottom {
+    border-bottom-right-radius: 0.8rem !important;
+    border-bottom-left-radius: 0.8rem !important;
+}
+
+.rounded-xl-top {
+    border-top-left-radius: 0.8rem !important;
+    border-top-right-radius: 0.8rem !important;
+}
+
+
+.text-profile-position {
+    font-weight: 400;
+}
+
+.text-profile-bio {
+    /* font-family: "Raleway"; */
+    font-weight: 400;
+}
+
+.navbar {
+    opacity: 0.95;
+}
+
+.inline-badge {
+    height: 16px;
+    vertical-align: -10%;
+    margin-right: 2px;
+    line-break: unset;
+}
+
+.portrait-figure {
+    width: 200px;
+    height: auto;
+}
+
+.portrait-figure img {
+    width: 200px !important;
+    height: auto !important;
+    max-width: 200px;
+    object-fit: contain;
+}
+
+.portrait-caption {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.no-break {
+    white-space: nowrap;
+}
+
+.cover-image {
+    width: 180px;
+    max-height: 120px;
+}
+
+.publication-cover {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.publication-abstract {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.4;
+    max-height: 4.2em;
+}
+
+.abstract-body {
+    min-height: 100px;
+}
+
+img.lazy {
+    background-image: url('images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    min-height: 80px;
+}
+
+div.lazy {
+    background-image: url('images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    min-height: 80px;
+}
+
+.badge-publication {
+    font-size: 100%;
+}
+
+.email-text {
+    font-family: Courier, monospace;
+}
+
+.abstract-links a[class*="link-paper"] {
+    color: #007bff !important; /* Blue color for paper links */
+}
+
+.abstract-links a[class*="link-paper"]:hover {
+    color: #0056b3 !important; /* Darker blue on hover */
+}
+
+.abstract-links a[class*="link-pdf"] {
+    color: #dc3545 !important; /* Red color for pdf links */
+}
+
+.abstract-links a[class*="link-pdf"]:hover {
+    color: #c82333 !important; /* Darker red on hover */
+}
+
+.abstract-links a[class*="link-code"] {
+    color: #6f42c1 !important; /* Purple color for code links */
+}
+
+.abstract-links a[class*="link-code"]:hover {
+    color: #5a32a3 !important; /* Darker purple on hover */
+}
+
+.abstract-links a[class*="link-demo"] {
+    color: #fd7e14 !important; /* Orange color for demo links */
+}
+
+.abstract-links a[class*="link-demo"]:hover {
+    color: #e8650e !important; /* Darker orange on hover */
+}
+
