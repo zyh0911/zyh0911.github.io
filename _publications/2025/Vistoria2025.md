@@ -1,4 +1,4 @@
----
+<!-- ---
 title:          "Vistoria: A Multimodal System to Support Fictional Story Writing through Instrumental Text-Image Co-Editing"
 date:           2025-09-17 00:00:00 +0000
 selected:       false
@@ -23,5 +23,5 @@ links:
     pdf: /assets/pdf/13646v2.pdf
     demo: https://youtu.be/JWaj2VJG5lU
     # Code: https://github.com/xxx
----
+--- -->
 

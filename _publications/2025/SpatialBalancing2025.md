@@ -1,4 +1,4 @@
----
+<!-- ---
 title:          "Spatial Balancing: Harnessing Spatial Reasoning to Balance Scientific Exposition and Narrative Engagement in LLM-assisted Science Communication Writing"
 date:           2025-09-17 00:00:00 +0000
 selected:       false
@@ -26,5 +26,5 @@ links:
     pdf: /assets/pdf/13742v2.pdf
     demo: https://youtu.be/MZ6VqAGgAHk
     # Code: https://github.com/xxx
----
+--- -->
 
