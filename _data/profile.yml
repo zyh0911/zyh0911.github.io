@@ -38,7 +38,7 @@ education:
   position: Ph.D. Student in Electrical and Computer Engineering 
     
   date: Sep. 2025 - present
-- name: The Hong Kong University of Science and Technology (Guangzhou)
+- name: The Hong Kong University of Science and Technology
   logo: /assets/images/photos/hkust-gz_logo.png
   position: M.Phil. in Microelectronics
   date: Sep. 2023 - Aug. 2025
@@ -47,11 +47,11 @@ education:
   position: B.Eng. in Microelectronics Science and Engineering
   date: Sep. 2019 - Jun. 2023
 
-# academic_services:
-# - name: ASPDAC /DATE /DAC Reviewer
-#   date: 2025 
-# - name: JETCAS Reviewer
-#   date: 2026
+academic_services:
+- name: ASPDAC /DATE /DAC Reviewer
+  date: 2025 
+- name: JETCAS Reviewer
+  date: 2026
   
 experience:
 - name: Shanghai Artificial Intelligence Laboratory
