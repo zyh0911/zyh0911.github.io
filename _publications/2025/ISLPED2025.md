@@ -14,6 +14,7 @@ authors:
   - Yuzhe Ma
   - Jiayi Huang
 links:
+    paper: https://ieeexplore.ieee.org/abstract/document/11261801
     pdf: /assets/pdf/ISLPED25_CIM.pdf
     # Code: https://github.com/xxx
 ---
