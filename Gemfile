@@ -36,4 +36,3 @@ gem "kramdown-parser-gfm"
 # These must be explicitly added to Gemfile for bundler to load them
 gem "base64"
 gem "logger"
-gem "bigdecimal"
