@@ -156,3 +156,8 @@ div.lazy {
     color: #e8650e !important; /* Darker orange on hover */
 }
 
+
+.publication-award {
+    color: #dc3545;
+    font-weight: 700;
+}

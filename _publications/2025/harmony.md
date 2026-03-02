@@ -22,5 +22,5 @@ links:
     # paper: https://arxiv.org/abs/xxxx.xxxxx
     pdf: /assets/pdf/ISQED.pdf
     # Code: https://github.com/xxx
+award:          "🏆 Best Paper Award"
 ---
-
