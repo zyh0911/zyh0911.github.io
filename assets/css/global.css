@@ -96,6 +96,21 @@ h1, h2, h3, h4, h5, h6,
     max-height: 4.2em;
 }
 
+.publication-abstract.expanded {
+    -webkit-line-clamp: unset;
+    max-height: none;
+}
+
+.abstract-toggle {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.abstract-toggle:hover {
+    text-decoration: underline;
+}
+
 .abstract-body {
     min-height: 100px;
 }

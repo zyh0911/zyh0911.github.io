@@ -19,7 +19,7 @@ authors:
   - Yuzhe Ma
   # Add other authors here
 links:
-    # paper: https://arxiv.org/abs/xxxx.xxxxx
+    paper: https://ieeexplore.ieee.org/document/11534775
     pdf: /assets/pdf/ISQED.pdf
     # Code: https://github.com/xxx
 award:          "🏆 Best Paper Award"

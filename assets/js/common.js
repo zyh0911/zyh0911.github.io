@@ -38,4 +38,28 @@ $(function () {
     $(".lazy").on("load", function () {
         $grid.masonry('layout');
     });
+
+    function updateAbstractToggles() {
+        $('.publication-abstract').each(function () {
+            var $abstract = $(this);
+            var $toggle = $abstract.next('.abstract-toggle');
+            if (!$toggle.length || !$abstract.is(':visible')) return;
+            var truncated = $abstract.hasClass('expanded') || this.scrollHeight > this.clientHeight + 1;
+            $toggle.toggleClass('d-none', !truncated);
+        });
+    }
+
+    $(document).on('click', '.abstract-toggle', function () {
+        var $abstract = $(this).prev('.publication-abstract');
+        var expanded = $abstract.toggleClass('expanded').hasClass('expanded');
+        $(this).text(expanded ? 'Show less' : 'Read more');
+    });
+
+    updateAbstractToggles();
+
+    var abstractResizeTimer;
+    $(window).on('resize', function () {
+        clearTimeout(abstractResizeTimer);
+        abstractResizeTimer = setTimeout(updateAbstractToggles, 150);
+    });
 })
