@@ -17,5 +17,6 @@ authors:
 links:
     # paper: https://arxiv.org/abs/xxxx.xxxxx
     # Code: https://github.com/xxx
+    pdf: /assets/pdf/PRISM.pdf
 ---
 
