@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Title Index · EDA / Arch / Circuits 2024–2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="brand-name">Title Index</span>
+    <span class="brand-sub">EDA · Arch · Circuits 顶会顶刊论文标题检索，2024–2026</span>
+  </div>
+  <form id="search-form" class="search" role="search" autocomplete="off">
+    <input id="q" type="search" placeholder="例如：placement reinforcement   |   &quot;logic synthesis&quot; -fpga   |   cxl OR hbm" aria-label="关键词">
+    <button type="submit">检索</button>
+  </form>
+  <div class="opts">
+    <label><input type="checkbox" id="prefix" checked> 前缀匹配（llm 也命中 llms）</label>
+    <label><input type="checkbox" id="authors"> 同时搜作者</label>
+    <span class="syntax">语法：空格 = 同时包含 · <code>"短语"</code> · <code>-排除</code> · <code>A OR B</code></span>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="rail" aria-label="筛选">
+    <section class="facet" data-facet="domain"><h2>领域</h2><ul></ul></section>
+    <section class="facet" data-facet="year"><h2>年份</h2><ul></ul></section>
+    <section class="facet" data-facet="venue"><h2>会议 / 期刊</h2><ul></ul></section>
+    <button id="clear" class="ghost" type="button">清除全部筛选</button>
+  </aside>
+
+  <section class="results">
+    <div class="summary">
+      <div id="count" class="count">正在加载索引…</div>
+      <div class="sort">
+        <label for="sort">排序</label>
+        <select id="sort">
+          <option value="relevance">相关度</option>
+          <option value="year">年份（新→旧）</option>
+          <option value="title">标题 A→Z</option>
+        </select>
+      </div>
+    </div>
+    <div id="trend" class="trend" hidden></div>
+    <div id="error" class="error" hidden></div>
+    <ol id="list" class="list"></ol>
+    <nav id="pager" class="pager" aria-label="分页"></nav>
+  </section>
+</main>
+
+<script>window.DATA_URL = "papers.json";</script>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
