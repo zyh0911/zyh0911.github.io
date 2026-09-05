@@ -3,7 +3,7 @@ const API = window.API_BASE || "";
 // Data source: static JSON searched in the browser (window.DATA_URL) or the Flask API.
 const api = window.DATA_URL ? window.LocalEngine(window.DATA_URL) : {
   meta: async () => (await fetch(`${API}/api/meta`)).json(),
-  search: async (p) => { const r = await fetch(`${API}/api/search?${p}`); const d = await r.json(); if (!r.ok) throw new Error(d.error || "查询失败"); return d; },
+  search: async (p) => { const r = await fetch(`${API}/api/search?${p}`); const d = await r.json(); if (!r.ok) throw new Error(d.error || "Search failed"); return d; },
 };
 const $ = (s, el = document) => el.querySelector(s);
 const state = { q: "", domain: new Set(), venue: new Set(), year: new Set(), page: 1, size: 50, sort: "relevance", prefix: true, authors: false };
@@ -13,7 +13,7 @@ let META = null, lastFacets = null, timer = null;
 (async function boot() {
   readHash();
   try { META = await api.meta(); }
-  catch (e) { showError(window.DATA_URL ? "论文索引 papers.json 加载失败：" + e.message : "无法连接后端 API。请先运行 backend/app.py（默认 http://localhost:8000）。"); return; }
+  catch (e) { showError(window.DATA_URL ? "Could not load the paper index (papers.json): " + e.message : "Cannot reach the backend API. Start backend/app.py first (default http://localhost:8000)."); return; }
   $("#q").value = state.q; $("#prefix").checked = state.prefix; $("#authors").checked = state.authors; $("#sort").value = state.sort;
   renderFacets();
   bind();
@@ -66,9 +66,9 @@ function showError(msg) { const el = $("#error"); el.textContent = msg; el.hidde
 
 // ---------- render ----------
 function renderCount(d) {
-  const q = d.query ? ` · 关键词 <span class="q">${esc(d.query)}</span>` : "";
-  const filt = [...state.domain, ...state.year, ...state.venue].length ? ` · ${[...state.domain, ...state.year, ...state.venue].length} 个筛选条件` : "";
-  $("#count").innerHTML = `<strong>${d.total.toLocaleString()}</strong> / ${META.total.toLocaleString()} 篇${q}${filt}`;
+  const q = d.query ? ` · query <span class="q">${esc(d.query)}</span>` : "";
+  const nf = state.domain.size + state.year.size + state.venue.size; const filt = nf ? ` · ${nf} filter${nf > 1 ? "s" : ""}` : "";
+  $("#count").innerHTML = `<strong>${d.total.toLocaleString()}</strong> of ${META.total.toLocaleString()} papers${q}${filt}`;
 }
 function renderFacets(f) {
   const cnt = (k, name) => f ? (f[k][name] || 0) : null;
@@ -93,14 +93,14 @@ function renderTrend(d) {
   el.innerHTML = META.domains.map(dm => {
     const rows = byDom[dm.name] || {}; const max = Math.max(1, ...years.map(y => rows[y] || 0));
     const tot = years.reduce((s, y) => s + (rows[y] || 0), 0);
-    return `<div class="cell" data-dom="${dm.name}"><h3>${dm.name}<span>${tot} 篇</span></h3><div class="bars">${years.map(y => {
+    return `<div class="cell" data-dom="${dm.name}"><h3>${dm.name}<span>${tot} papers</span></h3><div class="bars">${years.map(y => {
       const n = rows[y] || 0; return `<span class="y">${y}</span><span class="bar"><i style="width:${100 * n / max}%"></i></span><span class="v">${n}</span>`; }).join("")}</div></div>`;
   }).join("");
   el.hidden = false;
 }
 function renderList(d) {
   const list = $("#list");
-  if (!d.items.length) { list.innerHTML = `<li class="empty">没有匹配的标题。试试去掉筛选、缩短关键词，或关闭“前缀匹配”后改用短语。</li>`; return; }
+  if (!d.items.length) { list.innerHTML = `<li class="empty">No titles match. Try removing filters, shortening the keywords, or using a quoted phrase.</li>`; return; }
   const hl = makeHighlighter(d.highlight);
   list.innerHTML = d.items.map(p => `
     <li class="item" data-dom="${p.domain}">
