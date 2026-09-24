@@ -35,6 +35,12 @@ plugins:
 # timezone: America/Houston
 
 collections:
-  - publications
-  - news
-  - showcase
+  publications:
+    output: false
+  news:
+    output: false
+  showcase:
+    output: false
+  blogs:
+    output: true
+    permalink: /blogs/:name/

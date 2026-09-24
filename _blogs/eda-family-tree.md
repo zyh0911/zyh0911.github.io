@@ -1,0 +1,173 @@
+---
+layout: blog
+title: "EDA Family Tree"
+date: 2026-07-26 00:00:00 +0000
+tags:
+  - EDA
+---
+
+> Reposted from [EDA family tree](https://wadmes.github.io/2019/12/12/EDA-family-tree/) by [Wei Li](https://wadmes.github.io/cv/). Originally posted on 2019-12-12. Links, affiliations, and new faculty placements checked and updated on 2026-07-26.
+
+> This family tree is only recorded by Wei Li and me such that it cannot certainly contain every famous professor due to my ignorance. Especially, this tree focuses on Chinese scholars…
+
+## MIT
+
+- [C L Liu](https://en.wikipedia.org/wiki/Chung_Laung_Liu) (1934–2020) (MIT->UIUC->NTHU)
+  - [Jason Cong](http://vast.cs.ucla.edu/people/faculty/jason-cong) (UIUC'90->UCLA)
+    - [Patrick H. Madden](http://www.cs.binghamton.edu/~pmadden/) (UCLA'96->Binghamton)
+    - [Cheng-Kok Koh](https://engineering.purdue.edu/ECE/People/ptProfile?resource_id=2895) (UCLA'98->Purdue)
+    - [Lei He](https://samueli.ucla.edu/people/lei-he/) (UCLA'99->UW Madison->UCLA)
+      - [Hao Yu](http://faculty.sustech.edu.cn/yuh3/en/) (UCLA'07->NTU->SUSTech)
+      - [Yiyu Shi](https://engineering.nd.edu/faculty/yiyu-shi/) (UCLA'09->U Notre Dame)
+        - [Zheyu Yan](https://zyyan.top/) (Notre Dame'24->ZJU)
+    - [David Z. Pan](http://users.ece.utexas.edu/~dpan/) (UCLA'00->UT Austin)
+      - [Bei Yu](http://www.cse.cuhk.edu.hk/~byu/) (UT Austin'14->CUHK)
+        - [Yuzhe Ma](https://www.yuzhe-ma.com/) (CUHK'21->HKUST(GZ))
+        - [Hao Geng](https://true-genghao.github.io/genghao/) (CUHK'22->ShanghaiTech)
+        - [Tinghuan Chen](https://mypage.cuhk.edu.cn/academics/chentinghuan/) (CUHK'22->CUHK(SZ))
+        - [Qi Sun](https://qisunchn.top/) (CUHK'23->ZJU)
+        - [Zhuolun He](https://zleonhe.github.io/) (CUHK'23->Tsinghua)
+        - [Chen Bai](https://baichen318.github.io/) (CUHK'24->Fudan)
+        - Binwu Zhu (CUHK'24->SEU)
+        - [Xinyun Zhang](https://yxgnahz.github.io/) (CUHK'25->ShanghaiTech)
+        - [Yuxuan Zhao](https://bonjuor-zyx.github.io/) (CUHK'25->CUHK(SZ))
+        - [Zixiao Wang](https://shiningsord.github.io/) (CUHK'26->HKUST(GZ))
+      - [Yibo Lin](http://yibolin.com/) (UT Austin'18->PKU)
+      - [Meng Li](https://mengli.me/) (UT Austin'18->PKU)
+      - [Keren Zhu](https://krz.engineer/) (UT Austin'22->CUHK->Fudan)
+      - [Jiaqi Gu](https://www.jqgu.net/) (UT Austin'23->ASU)
+    - [Sung-Kyu Lim](https://sites.usc.edu/limsk/) (UCLA'00->GaTech->USC)
+    - [Deming Chen](http://dchen.ece.illinois.edu/) (UCLA'05->UIUC)
+    - [Zhiru Zhang](http://www.csl.cornell.edu/~zhiruz/) (UCLA'07->Xilinx->Cornell)
+      - [Cunxi Yu](https://ycunxi.github.io/cunxiyu/) (UMass'17->EPFL->Cornell->Utah->UMD)
+    - [Guojie Luo](https://ceca.pku.edu.cn/people/faculty/lgj/) (UCLA'11->PKU)
+    - [Peipei Zhou](https://peipeizhou-eecs.github.io/) (UCLA'19->Pitt->Brown)
+  - [Martin D.F. Wong](https://www.hkbu.edu.hk/en/about/university-officers/professor-martin-wong.html) (UIUC->UT Austin->UIUC->CUHK->HKBU)
+    - [Ting-Chi Wang](http://www.cs.nthu.edu.tw/~tcwang/) (UT Austin'94->NTHU)
+    - [Yao-Wen Chang](http://cc.ee.ntu.edu.tw/~ywchang/) (UT Austin'96->NCTU->NTU)
+      - [Iris Hui-Ru Jiang](https://www.ee.ntu.edu.tw/profile1.php?id=1060726) (NTU'05->NCTU->NTU)
+      - [Tsung-Yi Ho](https://tsungyiho.github.io/) (NTU'06->NCKU->NTHU->CUHK)
+      - [Shao-Yun Fang](https://syfang703.github.io/ntust-edalab/) (NTU->NTUST)
+    - [Wai-Kei Mak](http://www.cs.nthu.edu.tw/~wkmak/) (UT Austin'98->SFU->NTHU)
+    - [Evangeline F.Y. Young](http://www.cse.cuhk.edu.hk/~fyyoung/) (UT Austin'99->CUHK)
+      - [Jinwei Liu](https://anticold.github.io/) (CUHK'22->HKBU)
+      - [Shiju Lin](https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H22) (CUHK'24->HKUST(GZ))
+    - [Hai Zhou](http://users.eecs.northwestern.edu/~haizhou/) (UT Austin'99->Northwestern)
+      - [Jia Wang](http://www.ece.iit.edu/~jwang/) (Northwestern'08->IIT)
+    - [Chris Chu](http://home.engineering.iastate.edu/~cnchu/) (UT Austin'99->ISU)
+    - [Tsung-Wei Huang](https://tsung-wei-huang.github.io/) (UIUC'17->Utah->UW-Madison)
+- [Robert K. Brayton](https://www2.eecs.berkeley.edu/Faculty/Homepages/brayton.html) (1933–2025) (MIT'61->Berkeley)
+  - [Jie-Hong Roland Jiang](http://cc.ee.ntu.edu.tw/~jhjiang/) (Berkeley'04->NTU)
+  - [Alan Mishchenko](https://people.eecs.berkeley.edu/~alanmi/) (NAS'02->Berkeley)
+
+## Stanford
+
+- [Ernest S. Kuh](https://www2.eecs.berkeley.edu/Faculty/Homepages/kuh.html) (1928–2015) (Stanford'52->Berkeley)
+  - [Yoji Kajitani](https://ieeexplore.ieee.org/author/37063749700) (TIT)
+  - [Satoshi Goto](https://www.eps.sci.waseda.ac.jp/english/teachers_popup/goto.html) (Waseda)
+  - [Takeshi Yoshimura](https://w-rdb.waseda.jp/html/100002831_en.html) (Osaka->NEC->Waseda)
+    - [Cong (Callie) Hao](https://sites.gatech.edu/ece-callie/) (Waseda'17->UIUC->GaTech)
+  - [C K Cheng](http://cseweb.ucsd.edu/~kuan/) (Berkeley'84->UCSD)
+  - [Tim Cheng](https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng) (Berkeley'88->UCSB->HKUST)
+  - [Massoud Pedram](https://mpedram.com/) (Berkeley'89->USC)
+    - [Radu Marculescu](https://radum.ece.utexas.edu/) (USC'98->CMU->UT Austin)
+    - [Diana Marculescu](https://users.ece.utexas.edu/~dianam/) (USC'98->CMU->UT Austin)
+    - [Qinru Qiu](https://ecs.syracuse.edu/faculty-staff/qinru-qiu) (USC'01->SYR)
+    - [Yanzhi Wang](https://coe.northeastern.edu/people/wang-yanzhi/) (USC'14->NEU)
+    - [Xue Lin](https://xuelin.sites.northeastern.edu/) (USC'16->NEU)
+  - [Andrew B. Kahng](https://vlsicad.ucsd.edu/~abk/) (UCSD'89->UCLA->UCSD)
+  - [Gabriel Robins](http://www.cs.virginia.edu/~robins/) (UCLA'92->UVA)
+  - [Sherief Reda](https://vivo.brown.edu/display/sreda) (UCSD'06->Brown)
+  - [Igor Markov](https://web.eecs.umich.edu/~imarkov/) (UCLA'01->UMich->Meta->Synopsys)
+  - [Malgorzata Marek-Sadowska](https://iee.ucsb.edu/people/faculty/malgorzata-marek-sadowska) (Berkeley->UCSB, now Emeritus)
+    - [David Wu](https://www.easylogic.hk/about) (UCSB'93->CUHK->EasyLogic)
+    - [Shih-Chieh Chang](http://www.cs.nthu.edu.tw/~scchang/) (UCSB'94->NTHU)
+  - [Xianlong Hong](https://dblp.org/pid/22/6206.html) (Tsinghua Univ., retired)
+- [Jacob Abraham](https://www.cerc.utexas.edu/~jaa/) (Stanford'74->UIUC->UT Austin, now Emeritus)
+  - [Kaushik Roy](https://engineering.purdue.edu/ECE/People/ptProfile?resource_id=3085) (UIUC'90->Purdue)
+    - [Yiran Chen](https://ece.duke.edu/people/yiran-chen/) (Purdue'05->Pittsburgh->Duke)
+      - [Linghao Song](https://engineering.yale.edu/research-and-faculty/faculty-directory/linghao-song) (Duke'21->UCLA->Yale)
+      - [Ang Li](https://ece.umd.edu/clark/faculty/1839/Ang-Li) (Duke'22->UMD)
+      - [Jingwei Sun](https://cise.ufl.edu/people/faculty/name/jingwei-sun/) (Duke'24->UF)
+      - [Bonan Yan](https://bonany.cc/) (Duke'20->PKU)
+    - [Hai Li](https://ece.duke.edu/people/hai-helen-li/) (Purdue'04->NYU->Pittsburgh->Duke)
+      - [Huanrui Yang](https://ece.engineering.arizona.edu/faculty-staff/faculty/huanrui-yang) (Duke'22->Berkeley->U Arizona)
+      - [Xiaoxuan Yang](https://engineering.virginia.edu/faculty/xiaoxuan-yang) (Duke'23->Stanford->UVA)
+      - [Bokyung Kim](https://ece.rutgers.edu/bokyung-kim) (Duke'24->Rutgers)
+    - [Deliang Fan](https://faculty.engineering.asu.edu/dfan/) (Purdue'15->UCF->ASU)
+      - [Zhezhi He](https://elliothe.github.io/) (ASU'20->SJTU)
+      - [Shaahin Angizi](https://www.shaahinangizi.com/) (ASU'21->NJIT)
+  - [Shobha Vasudevan](https://ece.illinois.edu/about/directory/faculty/shobhav) (UT Austin'07->UIUC->Google)
+- [Marilyn Wolf](https://mwolf.unl.edu/) (Stanford'84->Princeton->GaTech->UNL)
+  - [Yuan Xie](https://ece.hkust.edu.hk/yuanxie) (Princeton'99->PSU->UCSB->Alibaba->HKUST)
+    - [Guangyu Sun](https://gsunpku.github.io/) (PSU'11->PKU)
+    - [Jishen Zhao](https://cseweb.ucsd.edu/~jzhao/) (PSU'14->UCSD)
+  - [Jiang Xu](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Jiang/jiang.xu) (Princeton'05->HKUST->HKUST(GZ))
+    - [Yaoyao Ye](http://english.seiee.sjtu.edu.cn/english/detail/2128_1921.htm) (HKUST'13->HUAWEI->SJTU)
+    - [Weichen Liu](https://personal.ntu.edu.sg/liu/) (HKUST->CQU->NTU)
+
+## Berkeley
+
+- [Kurt Keutzer](https://www2.eecs.berkeley.edu/Faculty/Homepages/keutzer.html) (Indiana'84->Berkeley, now Emeritus)
+  - [Dennis Sylvester](http://web.eecs.umich.edu/faculty/sylvester/) (Berkeley'99->UMICH)
+    - [Jae-sun Seo](https://www.tech.cornell.edu/people/jae-sun-seo) (UMICH'10->ASU->Cornell Tech)
+    - [Mingoo Seok](https://www.ee.columbia.edu/mingoo-seok) (UMICH'11->Columbia)
+    - [Matt Guthaus](https://users.soe.ucsc.edu/~mrg/) (UMICH'06->UCSC)
+- [Chenming Hu](https://www2.eecs.berkeley.edu/Faculty/Homepages/hu.html) (Berkeley'73->Berkeley, now Emeritus)
+  - [Yu Cao](https://cse.umn.edu/ece/yu-kevin-cao) (Berkeley'02->ASU->UMN)
+  - [Michael Orshansky](http://users.ece.utexas.edu/~michael/) (Berkeley'04->UT Austin)
+- [Alberto L. Sangiovanni-Vincentelli](https://www2.eecs.berkeley.edu/Faculty/Homepages/sangiovanni-vicentelli.html) (Berkeley)
+  - [Giovanni De Micheli](https://si2.epfl.ch/~demichel/) (Berkeley'83->Stanford->EPFL, now Emeritus)
+    - [Yung-Hsiang Lu](https://engineering.purdue.edu/ECE/People/ptProfile?resource_id=3355) (Stanford'02->Purdue)
+    - [Vincent John Mooney III](https://mooney.gatech.edu/) (Stanford'97->Georgia Tech)
+    - [Tajana Simunic](http://cseweb.ucsd.edu/~trosing/) (Stanford'01->UCSD)
+    - [Claudionor José Nunes Coelho Junior](https://www.linkedin.com/in/claudionor-coelho-jr-b156b01/) (Stanford'96->UFMG->Google->Zscaler)
+    - [Luca Benini](https://ee.ethz.ch/the-department/faculty/professors/person-detail.luca-benini.html) (Stanford'97->ETH)
+    - [Rajesh Gupta](http://mesl.ucsd.edu/gupta/) (Stanford'93->UCSD)
+    - [Sungroh Yoon](http://data.snu.ac.kr/) (Stanford'04->SNU)
+    - [Eui-Young Chung](https://dtl.yonsei.ac.kr/dtl_members_professor.html) (Stanford'02->Yonsei)
+  - [Pierluigi Nuzzo](https://vcresearch.berkeley.edu/faculty/pierluigi-nuzzo) (Berkeley->USC->Berkeley)
+  - [Douglas Densmore](http://www.bu.edu/eng/profile/douglas-densmore/) (Berkeley->Boston)
+  - [Luca Daniel](http://www.mit.edu/~dluca/) (Berkeley'03->MIT)
+    - [Zheng Zhang](https://web.ece.ucsb.edu/~zhengzhang/) (MIT'15->UCSB)
+  - [Luca Carloni](http://www.cs.columbia.edu/~luca/) (Berkeley->Columbia)
+  - [Jacob K. White](https://www.eecs.mit.edu/people/jacob-white/) (Berkeley'85->MIT)
+  - [Giorgio Casinovi](https://casinovi.ece.gatech.edu/) (Berkeley->Georgia Tech)
+  - [Shyu Jyuo-min](https://en.wikipedia.org/wiki/Shyu_Jyuo-min) (Berkeley'88->NTHU, now Emeritus)
+  - [Qi Zhu](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/zhu-qi.html) (Berkeley'08->UCR->NWU)
+  - [Haibo Zeng](https://ece.vt.edu/people/profile/zeng.html) (Berkeley'08->VT)
+- [Ernest S. Kuh](https://www2.eecs.berkeley.edu/Faculty/Homepages/kuh.html) (1928–2015) (Stanford'52->UCB)
+  - [Ron Rohrer](https://www.smu.edu/Lyle/Departments/ECE/People/Faculty/RohrerRon) (UCB'63->CMU->SMU)
+    - [Larry Pileggi](https://www.ece.cmu.edu/directory/bios/pileggi-larry.html) (CMU'89->UT Austin->CMU)
+      - [Peng Li](https://engineering.ucsb.edu/people/peng-li) (CMU'04->TAMU->UCSB)
+      - [Xin Li](https://ece.duke.edu/people/xin-li/) (CMU'05->CMU->Duke)
+
+## CMU
+
+- [Randy Bryant](https://www.cs.cmu.edu/~bryant/) (CMU, now Emeritus)
+  - [Sanjit A. Seshia](https://www2.eecs.berkeley.edu/Faculty/Homepages/seshia.html) (CMU'05->Berkeley)
+    - [Wenchao Li](https://www.bu.edu/eng/profile/wenchao-li-ph-d/) (Berkeley'13->Boston)
+    - [Dorsa Sadigh](https://dorsa.fyi/) (Berkeley->Stanford)
+
+## UIUC
+
+- [Sachin Sapatnekar](http://people.ece.umn.edu/~sachin/) (UIUC'92->ISU->UMN)
+  - [Jiang Hu](https://cesg.tamu.edu/faculty/jiang-hu/) (UMN'00->TAMU)
+  - [Pingqiang Zhou](http://faculty.sist.shanghaitech.edu.cn/faculty/zhoupq/) (UMN'13->ShanghaiTech)
+- [T. C. Hu](http://cseweb.ucsd.edu/~hu/) (1930–2021) (UIUC'56->UCB->UWisc->UCSD)
+- [Naresh Shanbhag](https://shanbhag.ece.illinois.edu/) (UMN'93->UIUC)
+  - [Yingyan (Celine) Lin](https://eiclab.scs.gatech.edu/) (UIUC'17->Rice->GaTech)
+
+## Purdue
+
+- [Xiaobo Sharon Hu](https://cse.nd.edu/faculty/xiaobo-sharon-hu/) (Purdue'89->Notre Dame)
+  - [Gang Quan](https://ece.fiu.edu/people/faculty/profiles/quan-gang/index.html) (Notre Dame'02->USC->FIU)
+  - [Tam Chantem](https://ece.vt.edu/people/profile/chantem) (Notre Dame'11->Utah State->VT)
+  - [Xunzhao Yin](https://person.zju.edu.cn/en/xunzhaoyin) (Notre Dame'19->ZJU)
+  - [Dayane Reis](https://www.usf.edu/engineering/cse/people/reis-dayane.aspx) (Notre Dame->USF)
+
+<!-- UCSD
+  - [Yufei Ding](https://yufeiding.ucsd.edu/) (NC State'17->UCSB->UCSD)
+    - [Gushu Li](https://sites.google.com/view/gushuli) (UCSB'22->UPenn)
+    - [Yuke Wang](https://www.wang-yuke.com/) (UCSB'24->Rice) -->
+

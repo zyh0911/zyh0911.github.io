@@ -1,0 +1,22 @@
+---
+layout: default
+navbar_title: Blogs
+---
+
+<div class="row">
+    <div class="col-12 col-lg-10">
+        <div class="my-4 p-4 p-md-5 bg-white shadow-sm rounded-xl">
+            <h1 class="mb-1">{{ page.title }}</h1>
+            <p class="text-muted mb-4" style="font-size: 0.9em;">
+                <i class="far fa-calendar-alt"></i> {{ page.date | date: "%B %-d, %Y" }}
+                {% if page.tags and page.tags != empty %}
+                &nbsp;&middot;&nbsp;
+                {% for tag in page.tags %}{% include widgets/tag_badge.html tag=tag %} {% endfor %}
+                {% endif %}
+            </p>
+            {{ content }}
+            <hr>
+            <a href="{{ '/blogs/' | relative_url }}"><i class="fas fa-angle-double-left"></i> Back to all posts</a>
+        </div>
+    </div>
+</div>

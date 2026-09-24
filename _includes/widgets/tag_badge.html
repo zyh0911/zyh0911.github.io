@@ -1,0 +1,16 @@
+{%- comment -%}
+Renders a colored tag badge. The color is assigned deterministically from the
+tag's position in the site-wide sorted tag list, so the same tag always gets
+the same color on every page.
+Usage: {% include widgets/tag_badge.html tag=tag %}
+{%- endcomment -%}
+{%- assign all_tags = "" | split: "" -%}
+{%- for post in site.blogs -%}
+  {%- if post.tags -%}{%- assign all_tags = all_tags | concat: post.tags -%}{%- endif -%}
+{%- endfor -%}
+{%- assign all_tags = all_tags | uniq | sort_natural -%}
+{%- assign color_idx = 0 -%}
+{%- for t in all_tags -%}
+  {%- if t == include.tag -%}{%- assign color_idx = forloop.index0 | modulo: 8 -%}{%- endif -%}
+{%- endfor -%}
+<span class="badge tag-badge tag-color-{{ color_idx }}">{{ include.tag }}</span>

@@ -2,7 +2,7 @@
 title:          "Dominant-Layer ZO: A Single Layer Dominates Zeroth-Order Fine-Tuning of LLMs"
 date:           2026-07-11 00:00:00 +0000
 selected:       true
-pub:            "ArXiv"
+pub:            "Conference on Neural Information Processing Systems (NeurIPS)"
 pub_pre:        ""
 pub_date:       "2026"
 cover: /assets/images/covers/dlzo.png

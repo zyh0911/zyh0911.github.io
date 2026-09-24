@@ -176,3 +176,16 @@ div.lazy {
     color: #dc3545;
     font-weight: 700;
 }
+
+.tag-badge {
+    font-weight: 500;
+}
+
+.tag-color-0 { background-color: #e3edf9; color: #1f5fa8; }
+.tag-color-1 { background-color: #e4f4e6; color: #2c7a35; }
+.tag-color-2 { background-color: #fdefdf; color: #c46a10; }
+.tag-color-3 { background-color: #efe8f7; color: #6f42c1; }
+.tag-color-4 { background-color: #fbe7e7; color: #c0392b; }
+.tag-color-5 { background-color: #e0f4f5; color: #16808a; }
+.tag-color-6 { background-color: #fbe8f1; color: #c2447f; }
+.tag-color-7 { background-color: #f2f3dc; color: #7f8420; }
