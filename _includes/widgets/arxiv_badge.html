@@ -1,0 +1,15 @@
+{%- comment -%}
+Renders an arXiv badge (shields.io, firebrick) for an arXiv URL. Used in the
+publication links row in place of the plain [paper]/[pdf] link. The badge
+label is the short name before ":" in the title, falling back to the arXiv ID.
+Usage: {% include widgets/arxiv_badge.html item=item url=arxiv_url %}
+{%- endcomment -%}
+{%- assign item = include.item -%}
+{%- assign arxiv_id = include.url | split: '/' | last | replace: '.pdf', '' -%}
+{%- if item.title contains ':' -%}
+    {%- assign label = item.title | split: ':' | first | strip -%}
+{%- else -%}
+    {%- assign label = arxiv_id -%}
+{%- endif -%}
+{%- assign label = label | replace: '-', '--' | replace: '_', '__' | replace: ' ', '_' | uri_escape -%}
+<a class="arxiv-badge" target="_blank" href="https://arxiv.org/abs/{{ arxiv_id }}"><img src="https://img.shields.io/badge/arXiv-{{ label }}-firebrick" alt="arXiv"></a>

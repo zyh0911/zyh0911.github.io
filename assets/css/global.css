@@ -189,3 +189,23 @@ div.lazy {
 .tag-color-5 { background-color: #e0f4f5; color: #16808a; }
 .tag-color-6 { background-color: #fbe8f1; color: #c2447f; }
 .tag-color-7 { background-color: #f2f3dc; color: #7f8420; }
+
+.pub-authors,
+.author-other,
+.author-other:hover {
+    color: #6c757d;
+}
+
+.author-self,
+.author-self:hover {
+    color: #212529;
+}
+
+.publication-abstract {
+    color: #00897b;
+}
+
+.arxiv-badge img {
+    height: 1.4em;
+    vertical-align: text-bottom;
+}

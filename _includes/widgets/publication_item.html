@@ -10,14 +10,16 @@
         </div>
         <div class="col-md-8 col-xl-9 p-3 pl-md-0">
             <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
-            <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
+            <p class="mt-0 mb-0 small pub-authors">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub | replace: '(', '(<strong>' | replace: ')', '</strong>)' }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
             {% if item.award %}<p class="mt-0 mb-0 small publication-award">{{ item.award }}</p>{% endif %}
-            <p class="mt-0 mb-0 small text-muted publication-abstract">{{ item.abstract }}</p>
+            <p class="mt-0 mb-0 small publication-abstract">{{ item.abstract }}</p>
             <a href="javascript:void(0)" class="small abstract-toggle d-none">Read more</a>
 
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                {% if item.arxiv %}{% include widgets/arxiv_badge.html item=item url=item.arxiv %}{% endif %}
                 {% for link in item.links %}
+                {% if link[1] contains 'arxiv.org' %}{% assign arxiv_url = link[1] %}{% include widgets/arxiv_badge.html item=item url=arxiv_url %}{% continue %}{% endif %}
                 {% assign link_name = link[0] | downcase %}
                 {% assign link_class = '' %}
                 {% if link_name == 'paper' %}
@@ -50,14 +52,16 @@
             <div class="mb-auto"></div>
             <div>
                 <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
-                <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
+                <p class="mt-0 mb-0 small pub-authors">{% include widgets/author_list.html authors=item.authors %}</p>
                 <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub | replace: '(', '(<strong>' | replace: ')', '</strong>)' }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
                 {% if item.award %}<p class="mt-0 mb-0 small publication-award">{{ item.award }}</p>{% endif %}
-                <p class="mt-0 mb-0 small text-muted publication-abstract">{{ item.abstract }}</p>
+                <p class="mt-0 mb-0 small publication-abstract">{{ item.abstract }}</p>
                 <a href="javascript:void(0)" class="small abstract-toggle d-none">Read more</a>
 
                 <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
-                    {% for link in item.links %}
+                    {% if item.arxiv %}{% include widgets/arxiv_badge.html item=item url=item.arxiv %}{% endif %}
+                {% for link in item.links %}
+                {% if link[1] contains 'arxiv.org' %}{% assign arxiv_url = link[1] %}{% include widgets/arxiv_badge.html item=item url=arxiv_url %}{% continue %}{% endif %}
                     {% assign link_name = link[0] | downcase %}
                     {% assign link_class = '' %}
                     {% if link_name == 'demo' %}
