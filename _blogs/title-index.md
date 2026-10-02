@@ -7,13 +7,13 @@ tags:
   - tools
 ---
 
-**[Title Index](/title-index/)** is a small search tool I built for quickly checking what has been published at top EDA, computer architecture, and circuits venues. It covers about **10,600 papers from 2024–2026**.
+**[Title Index](/title-index/)** is a small search tool I built for quickly checking what has been published at top EDA, computer architecture, and circuits venues. It covers about **17,100 papers from 2024–2026**.
 
 **Venues covered**
 
-- **EDA**: DAC, ICCAD, DATE, ASP-DAC, TCAD, TODAES
+- **EDA**: DAC, ICCAD, DATE, ASP-DAC, ISPD, TCAD, TODAES
 - **Architecture**: ISCA, MICRO, HPCA, ASPLOS, IEEE TC, IEEE TPDS, ACM TACO
-- **Circuits**: ISSCC, JSSC, CICC, ESSCIRC/ESSERC, A-SSCC
+- **Circuits**: ISSCC, JSSC, CICC, ESSCIRC/ESSERC, A-SSCC, VLSI Symposium, ISCAS, ISVLSI, GLSVLSI, IEEE TVLSI
 
 **Features**
 

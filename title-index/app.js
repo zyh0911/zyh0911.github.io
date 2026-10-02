@@ -106,10 +106,10 @@ function renderList(d) {
     <li class="item" data-dom="${p.domain}">
       <span class="stripe"></span>
       <div class="body">
-        <div class="meta"><span class="venue">${esc(p.venue)}</span><span>${p.year}</span><span class="dom">${p.domain}</span>${p.source === "Crossref" ? "<span>Crossref</span>" : ""}</div>
+        <div class="meta"><span class="venue">${esc(p.venue)}</span><span>${p.year}</span><span class="dom">${p.domain}</span>${p.source && p.source !== "DBLP" ? `<span>${esc(p.source)}</span>` : ""}</div>
         <h3 class="title">${p.link ? `<a href="${esc(p.link)}" target="_blank" rel="noopener">${hl(p.title)}</a>` : hl(p.title)}</h3>
         <div class="authors" title="${esc(p.authors)}">${state.authors ? hl(p.authors) : esc(p.authors)}</div>
-        <div class="links">${p.doi ? `<a href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">doi:${esc(p.doi)}</a>` : ""}${p.key && !p.key.startsWith("crossref:") ? `<a href="https://dblp.org/rec/${esc(p.key)}.html" target="_blank" rel="noopener">dblp</a>` : ""}<a href="https://scholar.google.com/scholar?q=${encodeURIComponent(p.title)}" target="_blank" rel="noopener">scholar</a></div>
+        <div class="links">${p.doi ? `<a href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">doi:${esc(p.doi)}</a>` : ""}${p.key && p.source === "DBLP" ? `<a href="https://dblp.org/rec/${esc(p.key)}.html" target="_blank" rel="noopener">dblp</a>` : ""}<a href="https://scholar.google.com/scholar?q=${encodeURIComponent(p.title)}" target="_blank" rel="noopener">scholar</a></div>
       </div>
     </li>`).join("");
 }
