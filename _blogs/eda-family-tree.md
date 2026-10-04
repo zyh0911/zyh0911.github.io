@@ -1,5 +1,6 @@
 ---
 layout: blog
+published: false  # hidden for now; remove to re-publish
 title: "EDA Family Tree"
 date: 2026-07-26 00:00:00 +0000
 tags:
