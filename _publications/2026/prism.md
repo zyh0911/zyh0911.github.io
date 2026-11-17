@@ -15,7 +15,7 @@ authors:
   - Li Yang
   - Deliang Fan
 links:
-    # paper: https://arxiv.org/abs/xxxx.xxxxx
+    paper: https://doi.org/10.1145/3831252.3833998
     # Code: https://github.com/xxx
     pdf: /assets/pdf/PRISM.pdf
 ---
