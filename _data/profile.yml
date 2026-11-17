@@ -23,7 +23,7 @@ short_bio: >-
     I have interned at the Shanghai AI Laboratory under the guidance of <a href="https://zleonhe.github.io/" target="_blank">Prof. Zhuolun He</a> and <a href="https://www.cse.cuhk.edu.hk/~byu/" target="_blank">Prof. Bei Yu</a>.
   </p>
   <p>
-    My research interests include <strong>KV Cache</strong>, <strong>AI accelerator</strong>, <strong>Design Space Exploration</strong>, 
+    My research interests include <strong>KV Cache Optimization</strong>, <strong>AI accelerator</strong>, <strong>Design Space Exploration</strong>, 
     <strong>Efficient AI</strong>, and <strong>EDA</strong>.
   </p>
   <p>
@@ -51,10 +51,8 @@ education:
 academic_services:
 - name: ASPDAC /DATE /DAC Reviewer
   date: 2025 
-- name: JETCAS Reviewer
+- name: JETCAS/AAAI/DATE/ACL Reviewer
   date: 2026
-- name: AAAI Reviewer
-  date: 2027
   
 experience:
 - name: Shanghai Artificial Intelligence Laboratory

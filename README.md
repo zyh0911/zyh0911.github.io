@@ -64,6 +64,7 @@ If you run into **any** issues while using this template, or have suggestions fo
 4. Run the following command in the root directory of the repository:
 
    ```bash
+   conda activate jekyll
    bundle exec jekyll serve
    ```
 
