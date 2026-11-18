@@ -16,5 +16,5 @@ authors:
   - Deliang Fan
 links:
     # paper: https://arxiv.org/abs/xxxx.xxxxx
-    # pdf: /assets/pdf/FlyCL.pdf
+    pdf: /assets/pdf/FlyCL.pdf
 ---
